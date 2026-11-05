@@ -1,0 +1,6 @@
+# Copias crudas de las fuentes; solo se guarda el registro de avisos ya leídos
+data/raw/*
+!data/raw/avisos.json
+__pycache__/
+.DS_Store
+_site/

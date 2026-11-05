@@ -1,0 +1,427 @@
+[
+ {
+  "start": "2026-10-03",
+  "end": "2026-10-09",
+  "tasa_aviso": 59.69,
+  "fuels": {
+   "gasolina_premium": {
+    "paridad": 203.46,
+    "impuesto_112_00": 71.85,
+    "impuesto_495_06": 32.55,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 358.2,
+    "subsidio": 5.1,
+    "precio": 353.1,
+    "variacion": 0.0
+   },
+   "gasolina_regular": {
+    "paridad": 180.03,
+    "impuesto_112_00": 63.83,
+    "impuesto_495_06": 28.8,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 323.0,
+    "subsidio": 5.5,
+    "precio": 317.5,
+    "variacion": 0.0
+   },
+   "gasoil_regular": {
+    "paridad": 173.91,
+    "impuesto_112_00": 28.06,
+    "impuesto_495_06": 27.82,
+    "margen_distribuidor": 14.28,
+    "margen_detallista": 23.75,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 274.5,
+    "subsidio": 3.7,
+    "precio": 270.8,
+    "variacion": 0.0
+   },
+   "gasoil_optimo": {
+    "paridad": 198.31,
+    "impuesto_112_00": 34.53,
+    "impuesto_495_06": 31.73,
+    "margen_distribuidor": 14.52,
+    "margen_detallista": 24.03,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 309.8,
+    "subsidio": 3.7,
+    "precio": 306.1,
+    "variacion": 0.0
+   },
+   "kerosene": {
+    "paridad": 288.72,
+    "impuesto_112_00": 17.99,
+    "impuesto_495_06": 46.2,
+    "margen_distribuidor": 9.1,
+    "margen_detallista": 17.01,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 385.7,
+    "subsidio": 5.6,
+    "precio": 380.1,
+    "variacion": -3.6
+   },
+   "glp": {
+    "paridad": 84.58,
+    "impuesto_112_00": 0.0,
+    "impuesto_495_06": 13.53,
+    "margen_distribuidor": 11.71,
+    "margen_detallista": 18.7,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 135.2,
+    "subsidio": 0.0,
+    "precio": 135.2,
+    "variacion": 0.0
+   }
+  },
+  "cilindros_glp": {
+   "100": 3380.07,
+   "50": 1690.04,
+   "25": 845.02,
+   "15": 507.01
+  }
+ },
+ {
+  "start": "2026-10-10",
+  "end": "2026-10-16",
+  "tasa_aviso": 60.75,
+  "fuels": {
+   "gasolina_premium": {
+    "paridad": 207.85,
+    "impuesto_112_00": 71.85,
+    "impuesto_495_06": 33.26,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 363.3,
+    "subsidio": 5.2,
+    "precio": 358.1,
+    "variacion": 5.0
+   },
+   "gasolina_regular": {
+    "paridad": 180.03,
+    "impuesto_112_00": 63.83,
+    "impuesto_495_06": 28.8,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 323.0,
+    "subsidio": 5.5,
+    "precio": 317.5,
+    "variacion": 0.0
+   },
+   "gasoil_regular": {
+    "paridad": 174.08,
+    "impuesto_112_00": 28.06,
+    "impuesto_495_06": 27.85,
+    "margen_distribuidor": 14.28,
+    "margen_detallista": 23.75,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 274.7,
+    "subsidio": 3.9,
+    "precio": 270.8,
+    "variacion": 0.0
+   },
+   "gasoil_optimo": {
+    "paridad": 208.84,
+    "impuesto_112_00": 34.53,
+    "impuesto_495_06": 33.4,
+    "margen_distribuidor": 14.52,
+    "margen_detallista": 24.03,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 322.0,
+    "subsidio": 3.9,
+    "precio": 318.1,
+    "variacion": 12.0
+   },
+   "kerosene": {
+    "paridad": 294.41,
+    "impuesto_112_00": 17.99,
+    "impuesto_495_06": 47.11,
+    "margen_distribuidor": 9.1,
+    "margen_detallista": 17.01,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 392.3,
+    "subsidio": 5.1,
+    "precio": 387.2,
+    "variacion": 7.1
+   },
+   "glp": {
+    "paridad": 84.58,
+    "impuesto_112_00": 0.0,
+    "impuesto_495_06": 13.53,
+    "margen_distribuidor": 11.71,
+    "margen_detallista": 18.7,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 135.2,
+    "subsidio": 0.0,
+    "precio": 135.2,
+    "variacion": 0.0
+   }
+  },
+  "cilindros_glp": {
+   "100": 3380.07,
+   "50": 1690.04,
+   "25": 845.02,
+   "15": 507.01
+  }
+ },
+ {
+  "start": "2026-10-17",
+  "end": "2026-10-23",
+  "tasa_aviso": 61.63,
+  "fuels": {
+   "gasolina_premium": {
+    "paridad": 207.77,
+    "impuesto_112_00": 71.85,
+    "impuesto_495_06": 33.24,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 363.2,
+    "subsidio": 5.1,
+    "precio": 358.1,
+    "variacion": 0.0
+   },
+   "gasolina_regular": {
+    "paridad": 179.94,
+    "impuesto_112_00": 63.83,
+    "impuesto_495_06": 28.79,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 322.9,
+    "subsidio": 5.4,
+    "precio": 317.5,
+    "variacion": 0.0
+   },
+   "gasoil_regular": {
+    "paridad": 173.9,
+    "impuesto_112_00": 28.06,
+    "impuesto_495_06": 27.83,
+    "margen_distribuidor": 14.28,
+    "margen_detallista": 23.75,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 274.5,
+    "subsidio": 3.7,
+    "precio": 270.8,
+    "variacion": 0.0
+   },
+   "gasoil_optimo": {
+    "paridad": 208.74,
+    "impuesto_112_00": 34.53,
+    "impuesto_495_06": 33.4,
+    "margen_distribuidor": 14.52,
+    "margen_detallista": 24.03,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 321.9,
+    "subsidio": 3.8,
+    "precio": 318.1,
+    "variacion": 0.0
+   },
+   "kerosene": {
+    "paridad": 301.83,
+    "impuesto_112_00": 17.99,
+    "impuesto_495_06": 48.29,
+    "margen_distribuidor": 9.1,
+    "margen_detallista": 17.01,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 400.9,
+    "subsidio": 5.1,
+    "precio": 395.8,
+    "variacion": 8.6
+   },
+   "glp": {
+    "paridad": 84.58,
+    "impuesto_112_00": 0.0,
+    "impuesto_495_06": 13.53,
+    "margen_distribuidor": 11.71,
+    "margen_detallista": 18.7,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 135.2,
+    "subsidio": 0.0,
+    "precio": 135.2,
+    "variacion": 0.0
+   }
+  },
+  "cilindros_glp": {
+   "100": 3380.07,
+   "50": 1690.04,
+   "25": 845.02,
+   "15": 507.01
+  }
+ },
+ {
+  "start": "2026-10-24",
+  "end": "2026-10-30",
+  "tasa_aviso": 61.69,
+  "fuels": {
+   "gasolina_premium": {
+    "paridad": 207.85,
+    "impuesto_112_00": 71.85,
+    "impuesto_495_06": 33.26,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 363.3,
+    "subsidio": 5.2,
+    "precio": 358.1,
+    "variacion": 0.0
+   },
+   "gasolina_regular": {
+    "paridad": 179.68,
+    "impuesto_112_00": 63.83,
+    "impuesto_495_06": 28.75,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 322.6,
+    "subsidio": 5.1,
+    "precio": 317.5,
+    "variacion": 0.0
+   },
+   "gasoil_regular": {
+    "paridad": 173.82,
+    "impuesto_112_00": 28.06,
+    "impuesto_495_06": 27.81,
+    "margen_distribuidor": 14.28,
+    "margen_detallista": 23.75,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 274.4,
+    "subsidio": 3.6,
+    "precio": 270.8,
+    "variacion": 0.0
+   },
+   "gasoil_optimo": {
+    "paridad": 208.74,
+    "impuesto_112_00": 34.53,
+    "impuesto_495_06": 33.4,
+    "margen_distribuidor": 14.52,
+    "margen_detallista": 24.03,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 321.9,
+    "subsidio": 3.8,
+    "precio": 318.1,
+    "variacion": 0.0
+   },
+   "kerosene": {
+    "paridad": 307.6,
+    "impuesto_112_00": 17.99,
+    "impuesto_495_06": 49.22,
+    "margen_distribuidor": 9.1,
+    "margen_detallista": 17.01,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 407.6,
+    "subsidio": 4.9,
+    "precio": 402.7,
+    "variacion": 6.9
+   },
+   "glp": {
+    "paridad": 84.58,
+    "impuesto_112_00": 0.0,
+    "impuesto_495_06": 13.53,
+    "margen_distribuidor": 11.71,
+    "margen_detallista": 18.7,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 135.2,
+    "subsidio": 0.0,
+    "precio": 135.2,
+    "variacion": 0.0
+   }
+  },
+  "cilindros_glp": {
+   "100": 3380.07,
+   "50": 1690.04,
+   "25": 845.02,
+   "15": 507.01
+  }
+ },
+ {
+  "start": "2026-10-31",
+  "end": "2026-11-06",
+  "tasa_aviso": 60.82,
+  "fuels": {
+   "gasolina_premium": {
+    "paridad": 208.11,
+    "impuesto_112_00": 71.85,
+    "impuesto_495_06": 33.3,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 363.6,
+    "subsidio": 5.5,
+    "precio": 358.1,
+    "variacion": 0.0
+   },
+   "gasolina_regular": {
+    "paridad": 179.68,
+    "impuesto_112_00": 63.83,
+    "impuesto_495_06": 28.75,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 322.6,
+    "subsidio": 5.1,
+    "precio": 317.5,
+    "variacion": 0.0
+   },
+   "gasoil_regular": {
+    "paridad": 173.82,
+    "impuesto_112_00": 28.06,
+    "impuesto_495_06": 27.81,
+    "margen_distribuidor": 14.28,
+    "margen_detallista": 23.75,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 274.4,
+    "subsidio": 3.6,
+    "precio": 270.8,
+    "variacion": 0.0
+   },
+   "gasoil_optimo": {
+    "paridad": 209.09,
+    "impuesto_112_00": 34.53,
+    "impuesto_495_06": 33.45,
+    "margen_distribuidor": 14.52,
+    "margen_detallista": 24.03,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 322.3,
+    "subsidio": 4.2,
+    "precio": 318.1,
+    "variacion": 0.0
+   },
+   "kerosene": {
+    "paridad": 305.88,
+    "impuesto_112_00": 17.99,
+    "impuesto_495_06": 48.94,
+    "margen_distribuidor": 9.1,
+    "margen_detallista": 17.01,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 405.6,
+    "subsidio": 5.5,
+    "precio": 400.1,
+    "variacion": -2.6
+   },
+   "glp": {
+    "paridad": 84.58,
+    "impuesto_112_00": 0.0,
+    "impuesto_495_06": 13.53,
+    "margen_distribuidor": 11.71,
+    "margen_detallista": 18.7,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 135.2,
+    "subsidio": 0.0,
+    "precio": 135.2,
+    "variacion": 0.0
+   }
+  },
+  "cilindros_glp": {
+   "100": 3380.07,
+   "50": 1690.04,
+   "25": 845.02,
+   "15": 507.01
+  }
+ }
+]
