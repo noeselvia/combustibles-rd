@@ -326,8 +326,28 @@ def build() -> dict:
     }
 
 
+def check_fresh(data: dict) -> list[str]:
+    """Problemas que harían que la página muestre precios viejos o incompletos."""
+    problems = []
+    week = data["semana_actual"]
+    if not week:
+        return ["no se pudo leer ningún aviso semanal"]
+    today_rd = (datetime.now(timezone.utc) - timedelta(hours=4)).date()  # RD es UTC-4 todo el año
+    if date.fromisoformat(week["end"]) < today_rd:
+        problems.append(f"el último aviso venció el {week['end']}; el MICM no lo ha publicado o cambió el formato")
+    missing = [k for k in [*PDF_ROWS.values(), "glp"] if k not in week["fuels"]]
+    if missing:
+        problems.append(f"el aviso del {week['start']} no trae: {', '.join(missing)}")
+    return problems
+
+
 if __name__ == "__main__":
     data = build()
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")))
     print(f"Listo: {OUT} ({OUT.stat().st_size / 1024:.0f} KB)")
+    # Falla a propósito para que GitHub Actions no publique y mande el correo de error
+    problems = check_fresh(data)
+    for p in problems:
+        print(f"ERROR: {p}", file=sys.stderr)
+    sys.exit(1 if problems else 0)
