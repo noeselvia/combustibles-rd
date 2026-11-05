@@ -388,7 +388,7 @@ function renderHero() {
   const tax = p.impuesto_112_00 + p.impuesto_495_06;
   el("headline").innerHTML = `Un galón de premium cuesta ${rd(p.precio)}. <em>${rd(tax)}</em> son impuestos.`;
   const subs = FUELS.filter(f => w.fuels[f.key]?.subsidio > 0).length;
-  el("hero-lede").textContent = `Eso es el ${fmt(tax / p.precio_sin_subsidio * 100, 0)} % del precio real. Esta semana el Gobierno subsidia ${subs} de ${FUELS.length} combustibles para que no suban.`;
+  el("hero-lede").textContent = `Eso es el ${fmt(tax / p.precio_sin_subsidio * 100, 0)} % del precio real. Esta semana el Gobierno subsidia ${subs} de ${FUELS.length} combustibles “para que no suban”.`;
   const moved = SIGN.filter(f => (w.fuels[f.key]?.variacion ?? 0) !== 0);
   const st = el("status");
   st.className = "status " + (moved.length ? "moved" : "frozen");
