@@ -421,7 +421,7 @@ function renderReceipt() {
     <header><b>RECIBO DE UN GALÓN</b><span>${f.name.toUpperCase()} · ${fdate(w.start, false)}–${fdate(w.end)}</span></header>
     ${L("Costo de importación", fmt(x.paridad), { c: "--s1" })}
     ${L("Impuestos", fmt(x.impuesto_112_00 + x.impuesto_495_06), { c: "--s2" })}
-    ${L("Selectivo, Ley 112-00", fmt(x.impuesto_112_00), { cls: "sub" })}
+    ${L("Impuesto fijo, Ley 112-00", fmt(x.impuesto_112_00), { cls: "sub" })}
     ${L("Ad-valorem 16 %, Ley 495-06", fmt(x.impuesto_495_06), { cls: "sub" })}
     ${L("Márgenes", fmt(x.margen_distribuidor + x.margen_detallista), { c: "--s3" })}
     ${L("Distribuidor", fmt(x.margen_distribuidor), { cls: "sub" })}
