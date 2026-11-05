@@ -20,7 +20,7 @@ MICM (CSV histórico + avisos PDF) ─┐
 Banco Central (tasa, Excel) ───────┼─► pipeline/build_data.py ─► data/fuel.json ─► index.html
 FRED (WTI, gasolina EE. UU.) ──────┤
 MICM (estaciones registradas) ─────┘
-        GitHub Actions lo corre cada sábado y lunes, guarda los datos y publica en GitHub Pages
+   GitHub Actions lo corre el viernes en la noche (y el sábado de respaldo), guarda los datos y publica en GitHub Pages
 ```
 
 La página tiene tres piezas propias del tema: el **letrero** de la bomba con dígitos LED, el **recibo de un galón** que separa importación, impuestos, márgenes y subsidio, y el **surtidor** que calcula tu gasto.
@@ -45,7 +45,7 @@ Luego abre http://localhost:8000. Para generar la carpeta que publica GitHub Pag
 
 ## Actualización automática
 
-El workflow [`.github/workflows/actualizar.yml`](.github/workflows/actualizar.yml) corre los sábados y lunes a las 10:00 a. m. (hora de RD), y también con cada push a `main` o a mano desde la pestaña Actions:
+El workflow [`.github/workflows/actualizar.yml`](.github/workflows/actualizar.yml) corre los viernes a las 7:00 p. m. (hora de RD), cuando el MICM ya anunció los precios de la semana, y los sábados a las 10:00 a. m. de respaldo por si el aviso se subió tarde. También corre con cada push a `main` o a mano desde la pestaña Actions:
 
 1. Descarga y limpia todas las fuentes.
 2. Si hay datos nuevos, los guarda en el repo con un commit.

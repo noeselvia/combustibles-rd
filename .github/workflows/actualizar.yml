@@ -1,11 +1,12 @@
 name: Actualizar y publicar
 
-# El MICM publica el aviso los viernes; los precios rigen desde el sábado.
-# Se corre el sábado y otra vez el lunes por si el aviso salió tarde.
+# El MICM anuncia los precios el viernes en la tarde; rigen desde las 00:00 del sábado.
+# Se corre el viernes en la noche para tenerlos el mismo día, y el sábado de respaldo
+# por si el PDF se subió tarde. RD está en UTC-4 todo el año (sin horario de verano).
 on:
   schedule:
+    - cron: "0 23 * * 5"   # viernes 7:00 p. m. hora de RD
     - cron: "0 14 * * 6"   # sábado 10:00 a. m. hora de RD
-    - cron: "0 14 * * 1"   # lunes 10:00 a. m.
   push:
     branches: [main]
   workflow_dispatch:
