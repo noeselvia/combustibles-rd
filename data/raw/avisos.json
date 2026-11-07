@@ -423,5 +423,90 @@
    "25": 845.02,
    "15": 507.01
   }
+ },
+ {
+  "start": "2026-11-07",
+  "end": "2026-11-13",
+  "tasa_aviso": 60.79,
+  "fuels": {
+   "gasolina_premium": {
+    "paridad": 211.13,
+    "impuesto_112_00": 71.85,
+    "impuesto_495_06": 33.78,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 367.1,
+    "subsidio": 5.0,
+    "precio": 362.1,
+    "variacion": 4.0
+   },
+   "gasolina_regular": {
+    "paridad": 179.08,
+    "impuesto_112_00": 63.83,
+    "impuesto_495_06": 28.65,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 321.9,
+    "subsidio": 4.4,
+    "precio": 317.5,
+    "variacion": 0.0
+   },
+   "gasoil_regular": {
+    "paridad": 173.65,
+    "impuesto_112_00": 28.06,
+    "impuesto_495_06": 27.78,
+    "margen_distribuidor": 14.28,
+    "margen_detallista": 23.75,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 274.2,
+    "subsidio": 3.4,
+    "precio": 270.8,
+    "variacion": 0.0
+   },
+   "gasoil_optimo": {
+    "paridad": 212.11,
+    "impuesto_112_00": 34.53,
+    "impuesto_495_06": 33.93,
+    "margen_distribuidor": 14.52,
+    "margen_detallista": 24.03,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 325.8,
+    "subsidio": 3.7,
+    "precio": 322.1,
+    "variacion": 4.0
+   },
+   "kerosene": {
+    "paridad": 290.62,
+    "impuesto_112_00": 17.99,
+    "impuesto_495_06": 46.5,
+    "margen_distribuidor": 9.1,
+    "margen_detallista": 17.01,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 387.9,
+    "subsidio": 4.9,
+    "precio": 383.0,
+    "variacion": -17.1
+   },
+   "glp": {
+    "paridad": 84.58,
+    "impuesto_112_00": 0.0,
+    "impuesto_495_06": 13.53,
+    "margen_distribuidor": 11.71,
+    "margen_detallista": 18.7,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 135.2,
+    "subsidio": 0.0,
+    "precio": 135.2,
+    "variacion": 0.0
+   }
+  },
+  "cilindros_glp": {
+   "100": 3380.07,
+   "50": 1690.04,
+   "25": 845.02,
+   "15": 507.01
+  }
  }
 ]
