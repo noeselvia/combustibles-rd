@@ -508,5 +508,90 @@
    "25": 845.02,
    "15": 507.01
   }
+ },
+ {
+  "start": "2026-11-14",
+  "end": "2026-11-20",
+  "tasa_aviso": 60.9,
+  "fuels": {
+   "gasolina_premium": {
+    "paridad": 210.87,
+    "impuesto_112_00": 71.85,
+    "impuesto_495_06": 33.74,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 366.8,
+    "subsidio": 4.7,
+    "precio": 362.1,
+    "variacion": 0.0
+   },
+   "gasolina_regular": {
+    "paridad": 179.16,
+    "impuesto_112_00": 63.83,
+    "impuesto_495_06": 28.67,
+    "margen_distribuidor": 16.59,
+    "margen_detallista": 27.07,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 322.0,
+    "subsidio": 4.5,
+    "precio": 317.5,
+    "variacion": 0.0
+   },
+   "gasoil_regular": {
+    "paridad": 173.56,
+    "impuesto_112_00": 28.06,
+    "impuesto_495_06": 27.77,
+    "margen_distribuidor": 14.28,
+    "margen_detallista": 23.75,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 274.1,
+    "subsidio": 3.3,
+    "precio": 270.8,
+    "variacion": 0.0
+   },
+   "gasoil_optimo": {
+    "paridad": 212.1,
+    "impuesto_112_00": 34.53,
+    "impuesto_495_06": 33.94,
+    "margen_distribuidor": 14.52,
+    "margen_detallista": 24.03,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 325.8,
+    "subsidio": 3.7,
+    "precio": 322.1,
+    "variacion": 0.0
+   },
+   "kerosene": {
+    "paridad": 284.07,
+    "impuesto_112_00": 17.99,
+    "impuesto_495_06": 45.45,
+    "margen_distribuidor": 9.1,
+    "margen_detallista": 17.01,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 380.3,
+    "subsidio": 4.7,
+    "precio": 375.6,
+    "variacion": -7.4
+   },
+   "glp": {
+    "paridad": 84.58,
+    "impuesto_112_00": 0.0,
+    "impuesto_495_06": 13.53,
+    "margen_distribuidor": 11.71,
+    "margen_detallista": 18.7,
+    "transporte": 6.68,
+    "precio_sin_subsidio": 135.2,
+    "subsidio": 0.0,
+    "precio": 135.2,
+    "variacion": 0.0
+   }
+  },
+  "cilindros_glp": {
+   "100": 3380.07,
+   "50": 1690.04,
+   "25": 845.02,
+   "15": 507.01
+  }
  }
 ]
